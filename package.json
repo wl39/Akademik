@@ -17,7 +17,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "final": "npm install; rm -R ./cs3099user20/src/main/resources/static/*; react-scripts build; mv ./build/index.html ./cs3099user20/src/main/resources/templates; mv ./build/* ./cs3099user20/src/main/resources/static; cd cs3099user20; chmod +x gradlew; ./gradlew bootJar; cd build/libs; java -jar 'cs3099user20-1.0.0 - MVP.jar'",
     "preview": "vite preview"
