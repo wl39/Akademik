@@ -1,0 +1,27 @@
+.textFieldContainer {
+    position: relative;
+}
+
+.textFieldBlack {
+    height: 50px;
+    font-size: 36px;
+    padding-left: 15px;
+    width: calc(100% - 21px);
+    border-radius:5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.textFieldBlack:focus {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+.textFieldBlack::placeholder {
+    color: #1f1f1f65;
+}
+
+.textFieldInvalid:focus {
+    outline: none;
+    border: 2px solid red ;
+}

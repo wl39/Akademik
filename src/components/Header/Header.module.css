@@ -1,0 +1,35 @@
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding: 16px 36px 16px 36px;
+    width: calc(100vw - 72px);
+    z-index: 5;
+    transition: width 0.15s, background-color 0.4s;
+    top: 0px
+  }
+
+  .headerNotMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding: 16px 36px 16px 36px;
+    width: calc(100vw - 72px);
+    z-index: 5;
+    transition: width 0.15s, background-color 0.4s;
+    top: 0px
+  }
+
+  .signContainer {
+    display: flex;
+    height: 100%;
+  }
+
+  .link {
+    display: flex;
+    margin: auto 0px;
+    text-decoration: none;
+  }

@@ -1,0 +1,120 @@
+.loginPage {
+    margin: 0px 20.833%;
+    height: 100vh;
+    position: relative;
+}
+
+.card {
+    position:absolute;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: row-reverse;
+}
+
+.containerLeft {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.path {
+    position: absolute;
+    left: 0;
+    width: 105%;
+    height: 105%;
+    z-index: 2;
+    transform: scaleX(-1) translateX(4.75%);
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.greeting1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    position: absolute;
+    left: 50%;
+    top: 37.5%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+.greeting2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    position: absolute;
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+.subTextContainer {
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 36px;
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    right: 40px;
+}
+
+.subBold {
+    font-weight: 400;
+}
+
+.containerRight {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    height: 315px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.loginText {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.textFieldContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 95px;
+    justify-content: space-between;
+}
+
+.tempHeader {
+    position: fixed;
+    height: 50px;
+    top: 16px;
+}

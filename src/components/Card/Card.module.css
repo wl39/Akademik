@@ -1,0 +1,54 @@
+.cardBlack {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 32px 37px
+}
+
+.cardWhite {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 32px 37px;
+}
+
+.cardTrendingWhite {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    height: 165px;
+}
+
+.cardTrendingWhite:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+}
+
+.cardArticleWhite {
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+
+.cardArticleWhite:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+}
+
+.round {
+    border-radius: 1em;
+}
+
+.article-round {
+    border-radius: 1em;
+}
+
+.shadow {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+}
+
+.relative {
+    position: relative;
+}
+
+.mainpage {
+    z-index: 3;
+}

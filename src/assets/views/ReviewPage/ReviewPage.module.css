@@ -1,0 +1,337 @@
+.articlePage {
+    margin: 130px 21.875% 105px;
+    
+}
+
+.articleComment {
+    margin: 130px 21.875% 105px;
+}
+
+.articleHeader {
+    display: flex;
+    font-size: 18px;
+
+}
+
+.mainButtonContainer {
+    margin: auto 0px auto auto;
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+.path {
+    padding-left: 5px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.replyButtonContainer {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.replyIcon {
+    -webkit-transform:rotate(180deg);
+    transform: rotate(180deg);
+    width: 25px
+}
+
+.familyContainer {
+    display: flex;
+}
+
+.childContainer {
+    display: flex;
+    margin-left: 20px;
+}
+
+.codeContainer {
+    display: flex;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    width: 325px;
+    margin-left: auto;
+    display: flex;
+}
+
+.descriptionActive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 700;
+    width: 140px;
+}
+
+.descriptionInactive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 200;
+    cursor: pointer;
+    width: 140px;
+}
+.articleActive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 700;
+    width: 92px;
+}
+
+.articleInactive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 200;
+    cursor: pointer;
+    width: 92px;
+}
+.codeActive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 700;
+    width: 78px;
+}
+
+.codeInactive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 200;
+    cursor: pointer;
+    width: 78px;
+}
+
+.commentsActive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 700;
+    width: 132px;
+}
+
+.commentsInactive {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 200;
+    width: 132px;
+    cursor: pointer;
+}
+.articleContainer {
+    text-align: left;
+}
+
+.title {
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.authorsContainer {
+    display: flex;
+    text-align: left;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.authors {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.author {
+    margin-right: 5px;
+}
+
+.author::after {
+    margin-left: 5px;
+    content: "|"
+}
+
+.contents {
+    max-height: 156px;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 27px;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.keywordsContainer {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.keywords {
+    height: 16px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.keywordContainer {
+    display: flex;
+}
+
+.keyword {
+    margin-right: 5px;
+}
+
+.keyword::before {
+    content: "#"
+}
+
+.keyword::after {
+    margin-left: 5px;
+    content: "|";
+}
+
+.keywordlast::before {
+    content: "#"
+}
+
+.document {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.page {
+    display: flex;
+}
+
+.pageController {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.leftArrow {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.rightArrow {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.pageNumber {
+    line-height: 24px;
+}
+
+.commentsHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.commentsFilePath {
+    font-weight: 600;
+    height: 22px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.commentsButtonContainer {
+    display: flex;
+}
+
+.commentsCardContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.commentsDiscussionText {
+    font-size: 10px;
+}
+.commentsCodeContainer {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: pre-wrap;
+
+}
+
+.lineNumber {
+    margin-right: 14px;
+    color: rgb(139, 139, 139);
+}
+
+.commentsLineAuthorContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.userContainer {
+    display: flex;
+}
+
+.discussionContainer {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.lineHeader {
+    font-weight: 600;
+}
+
+.actualComments {
+    margin-bottom: 10px;
+}
+
+.lineComments {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background: #DCEAF2;
+    border-radius: 5px;
+}
+
+.editIcon {
+    cursor: pointer;
+}
+
+.authorID {
+    padding-left: 10px;
+}
+
+.customTextarea {
+    resize: none;
+    width: calc(100% - 40px);
+    font-family: "Montserrat";
+    font-size: 12px;
+    padding: 12px 16px;
+}
+
+.cContainer {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.cIconContainer {
+    padding-right: 10px;
+}
+
+.cIcon {
+    width: 50px
+}
+
+.cTextareaContainer {
+    width: 100%
+}

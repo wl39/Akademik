@@ -1,0 +1,47 @@
+.searchResultContainer {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    border: 1px solid gainsboro;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.articleContainer {
+    text-align: left;
+}
+
+.title {
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+.authorsContainer {
+    display: flex;
+    text-align: left;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.authors {
+    font-weight: 500;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.author {
+    margin-right: 5px;
+}
+
+.author::after {
+    margin-left: 5px;
+    content: "|"
+}

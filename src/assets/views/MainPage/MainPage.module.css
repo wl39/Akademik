@@ -1,0 +1,224 @@
+
+.hero {
+    position: absolute;
+    /* width: 2620px;
+    height: 1100px; */
+    left: -350px;
+    top: -147px;
+  }
+  
+  .aka {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    letter-spacing: -0.017em;
+  }
+  
+  .signContainer {
+    display: flex
+  }
+  
+  .headerContainer {
+    background-image: url(../../images/HeroBackground.png);
+    background-size: 2620px 1100px;
+    background-position-x: -350px;
+    background-position-y: -147px;
+    background-repeat: no-repeat;
+    /* height: 963px; */
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 36px;
+    padding-right: 225px;
+  }
+
+  .slogan {
+      white-space: pre-line;
+      font-size: 96px;
+      font-weight: 800;
+      line-height: 117px;
+      letter-spacing: -0.017em;
+  }
+
+  .bookContainer {
+      margin-top: 20px;
+      width: 100%;
+      position: relative;
+      overflow-x: hidden;
+      height: 1855px;
+  }
+
+  .book {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+  }
+
+  .card {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    vertical-align: middle;
+    z-index: 3;
+  }
+
+  .smallCard {
+    display: inline-block;
+    width: 240px;
+    height: 300px;
+    vertical-align: middle;
+    z-index: 3;
+  }
+
+  .cardHeader {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .cardBody {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .marketingHook {
+    color: white;
+    font-size: 48px;
+    width: 80%;
+    position: relative;
+    left: -50%;
+    padding-left: 10%;
+  }
+
+  .marketingHookContainer {
+    position:absolute;
+    top:1400px;
+    width: 100%;
+    left: 50%;
+  }
+
+  .sliderContainer {
+    width: 100%;
+    position: absolute;
+    top: 405px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .sliderHeader {
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 48px;
+    color: white;
+    margin-bottom: 75px;
+  }
+
+  .steps {
+    margin-top: 90px;
+    margin-bottom: 108px;
+  }
+
+  .stepTitle {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 44px;
+  }
+  
+  .step1 {
+    width: 100%;
+    height: 345px;
+  }
+
+  .step1Container {
+    position: relative;
+    width: inherit;
+    height: inherit;
+  }
+
+  .step1TextContainer {
+    position: absolute;
+    right: 50%;
+    padding-top: 65px;
+  }
+
+  .step1Image {
+    position: absolute;
+    left: 50%;
+    padding-left: 102px;
+    padding-bottom: 21px;
+  }
+
+  .step1Header {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: right;
+  }
+
+  .step1Text {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: right;
+    white-space: pre-wrap;
+  }
+
+  .step2 {
+    width: 100%;
+    height: 345px;
+  }
+
+  .step2Container {
+    position: relative;
+    width: inherit;
+    height: inherit;
+  }
+
+  .step2TextContainer {
+    position: absolute;
+    left: 50%;
+    padding-top: 65px;
+  }
+
+  .step2Image {
+    position: absolute;
+    right: 50%;
+    padding-right: 102px;
+    padding-bottom: 21px;
+  }
+
+  .step2Header {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .step2Text {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;
+    white-space: pre-wrap;
+  }
+
+  .step3 {
+    width: 100%;
+    height: 345px;
+  }
+
+  .end {
+    width: 100%;
+    height: 325px;
+    position: relative;
+    overflow: hidden;
+    top: 20px;
+  }
+  
+  .mainpageEnd {
+    z-index: 0;
+  }

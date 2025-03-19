@@ -1,0 +1,82 @@
+.dropdown {
+    font-size: 24px;
+    display: flex;
+    height: 60px;
+    cursor: pointer;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    color: black;
+    position: relative;
+    width: 100%;
+}
+
+.dropdown:hover {
+    background-color: #2727271f;
+}
+
+.selected {
+    padding-right: 10px;
+    margin: auto 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.icons {
+    height: 24px;
+    margin: auto
+}
+
+.menu {
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    width: 305px;
+    display: block;
+    text-align: left;
+    height: 95px;
+    overflow-y: scroll;
+    background: white;
+    transition: height 0.2s, border 0.2s;
+    border: 1px solid #999
+}
+
+.menuClosed {
+    font-size: 24px;
+    position: absolute;
+    z-index: 2;
+    /* display: none; */
+    width: 305px;
+    text-align: left;
+    height: 0px;
+    overflow-y: scroll;
+    background: white;
+    transition: height 0.2s, border 0.2s;
+    border: 0px solid #999
+}
+
+.menuItems {
+    padding: 5px 0px 5px 5px;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.menuItems:hover {
+    background-color: #2727271f;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555
+}

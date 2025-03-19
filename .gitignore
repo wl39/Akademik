@@ -1,0 +1,62 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+._*
+
+# Git-related files
+.git/
+.gitattributes
+
+# Ignore all logs and temp files
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+hs_err_pid*
+nohup.out
+
+###############
+### SPRING BOOT (cs3099user20/)
+###############
+/cs3099user20/.idea/
+/cs3099user20/.gradle/
+/cs3099user20/build/
+/cs3099user20/bin/
+/cs3099user20/keystore.p12
+
+# Gradle wrapper files (keep only the jar file)
+/cs3099user20/.gradle/caches/
+/cs3099user20/.gradle/wrapper/
+
+# Maven (if applicable)
+/cs3099user20/target/
+/cs3099user20/mvn/
+
+# VSCode project files
+*.code-workspace
+
+# React + Vite specific files
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml
+.pnp/
+.pnp.js
+
+# Ignore backup and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.lock

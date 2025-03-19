@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: auto 0px;
+}
+
+.input {
+    visibility: hidden;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    outline: 1px solid lightgray;
+}
+
+.input:checked ~ .box {
+    background-color: black;
+}
+
+.box:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+input:checked ~ .box:after {
+    display: block;
+}
+
+.box:after {
+    left: 5px;
+    bottom: 4px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

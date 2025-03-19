@@ -1,0 +1,89 @@
+.moderateContainer {
+    padding: 130px 21.875% 105px;
+}
+
+.moderateReviewerPageTitle {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.subTitle {
+    font-size: 24px;   
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 36px;
+    margin-left: 6px;
+}
+
+.buttonContainer {
+    width: calc(100% - 100px);
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 50px;
+    bottom: 30px;
+}
+
+.noUser {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+.candidatesContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 14px
+}
+
+.emailContainer {
+    display: flex;
+    text-align: left;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 64px;
+    justify-content: space-evenly;
+    margin-bottom: 7px;
+}
+
+.lineContainer {
+    display: flex;
+    text-align: left;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.lineHeader {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.biographyHeader {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.biographyContainer {
+    padding-bottom: 40px;
+}
+
+.biography {
+    font-size: 14px;
+    font-weight: 300;
+}
